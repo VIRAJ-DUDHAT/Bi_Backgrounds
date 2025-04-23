@@ -1,0 +1,284 @@
+.row{
+    margin-right: 0px !important;
+}
+header {
+    align-items: flex-start;
+    display: flex;
+    font-family: Roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+
+#subtitle{
+    font-size: calc(1vw + 10px);
+    font-weight: 500;
+    position: relative;
+    color: grey;
+    top: calc(1vw);
+}
+
+.container-fluid{
+    margin-top: 140px;
+}
+
+.ml-custom {
+    margin-left: 5rem; 
+}
+
+#header-text{
+    font-size: calc(2vw + 15px);
+    font-weight: 500;
+    position: relative;
+    top: calc(1vw);
+}
+
+#logo-img{
+    height: calc(2vw + 15px);
+    width: auto;
+}
+
+footer{
+    margin-bottom: 40px;
+}
+footer img {
+    height: 62px;
+    margin-left: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/* Sidebar styling */
+.sidebar {
+    /* Make the sidebar fixed with specific width */
+    position: fixed;
+    top: 430px; /* Adjust based on header height */
+    left: 20px;
+    z-index: 100;
+    width: 260px; /* Fixed width instead of percentage */
+    padding: 0;
+}
+
+.color-panel {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.color-panel h4 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    font-family: Roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.color-picker-group {
+    margin-bottom: 15px;
+}
+
+.color-picker-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #555;
+    font-family: Roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.color-picker-group input[type="color"] {
+    width: 100%;
+    height: 40px;
+    padding: 2px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Tutorial link styling */
+.tutorial-panel {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    max-width: 100%;
+    text-align: center;
+}
+
+.tutorial-panel h4 {
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    font-family: Roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.youtube-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF0000;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.youtube-link:hover {
+    background-color: #CC0000;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    color: white;
+    text-decoration: none;
+}
+
+.youtube-logo {
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+}
+
+/* Main content area */
+.main-content {
+    padding: 20px;
+    /* Offset the content to account for fixed sidebar */
+    margin-left: 280px; /* Sidebar width + padding */
+}
+
+#image-grid {
+    margin-right: 0;
+    margin-top: 0;
+}
+
+/* Title wrapper for flexible layout */
+.title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+/* SVG Title Styling - More Prominent */
+.svg-title {
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    font-family: Roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+    padding: 6px 10px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    max-width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 5px;
+}
+
+/* Download button styling */
+.download-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007DC3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 6px;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    transition: all 0.2s ease;
+}
+
+.download-button:hover {
+    background-color: #0069a5;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.download-button svg {
+    width: 16px;
+    height: 16px;
+}
+
+.svg-preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px !important;
+}
+
+.svg-wrapper {
+    text-align: center;
+    width: 100%;
+}
+
+.svg-preview>svg {
+    border-radius: 10px;
+    height: 100%;
+    border: 1px solid grey;
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+        box-shadow 0.3s ease-in-out;
+}
+
+.svg-wrapper>svg {
+    border-radius: 10px;
+    height: 100%;
+    border: 1px solid grey;
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+        box-shadow 0.3s ease-in-out;
+    margin-top: 5px;
+}
+
+.svg-preview>svg:hover, .svg-wrapper>svg:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+        box-shadow 0.3s ease-in-out;
+}
+
+.selected {
+    border: 2px solid #007bff !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .sidebar {
+        position: static;
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto 20px auto;
+        padding: 0 15px;
+    }
+    
+    .main-content {
+        margin-left: 0;
+    }
+    
+    .ml-custom {
+        margin-left: 2rem;
+    }
+    
+    header {
+        margin-top: 20px;
+    }
+}

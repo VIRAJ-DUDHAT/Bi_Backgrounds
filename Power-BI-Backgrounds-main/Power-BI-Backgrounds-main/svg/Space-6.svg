@@ -1,0 +1,76 @@
+<svg viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .background { fill: #121A29; }
+        .frame { fill: #1E2A3B; stroke: #3B82F6; stroke-width: 2; }
+        .primary { fill: #3B82F6; }
+        .secondary { fill: #10B981; }
+    </style>
+    
+    <g id="Minimalist Background">
+        <rect id="16:9" width="1280" height="720" class="background"/>
+        
+        <!-- Main frame -->
+        <rect id="Rectangle 2" x="21" y="16" width="1238" height="687" rx="40" class="frame"/>
+        
+        <!-- Top header bar - preserved as requested -->
+        <rect id="Rectangle 9" x="158" y="90" width="1035" height="7" class="primary"/>
+        
+        <!-- Simple top elements - trapezoids for cleaner look -->
+        <path id="Top-Element-1" d="M1123.5 0L1109 16H1165L1150 0H1123.5Z" class="secondary"/>
+        <path id="Top-Element-2" d="M1175 0L1190 0L1205 16H1159L1175 0Z" class="secondary"/>
+        
+        <!-- Left side subtle design -->
+        <g id="LeftSide" opacity="0.8">
+            <rect x="21" y="200" width="3" height="80" rx="1.5" class="primary" opacity="0.4"/>
+            <rect x="21" y="300" width="3" height="120" rx="1.5" class="primary" opacity="0.4"/>
+            <rect x="21" y="440" width="3" height="80" rx="1.5" class="primary" opacity="0.4"/>
+            
+            <rect x="35" y="200" width="30" height="2" rx="1" class="primary" opacity="0.3"/>
+            <rect x="35" y="220" width="15" height="2" rx="1" class="primary" opacity="0.3"/>
+            <rect x="35" y="240" width="25" height="2" rx="1" class="primary" opacity="0.3"/>
+            <rect x="35" y="260" width="20" height="2" rx="1" class="primary" opacity="0.3"/>
+            <rect x="35" y="280" width="30" height="2" rx="1" class="primary" opacity="0.3"/>
+            
+            <rect x="35" y="320" width="25" height="2" rx="1" class="primary" opacity="0.3"/>
+            <rect x="35" y="340" width="30" height="2" rx="1" class="primary" opacity="0.3"/>
+            <rect x="35" y="360" width="15" height="2" rx="1" class="primary" opacity="0.3"/>
+            <rect x="35" y="380" width="25" height="2" rx="1" class="primary" opacity="0.3"/>
+            <rect x="35" y="400" width="20" height="2" rx="1" class="primary" opacity="0.3"/>
+            
+            <rect x="35" y="440" width="30" height="2" rx="1" class="primary" opacity="0.3"/>
+            <rect x="35" y="460" width="20" height="2" rx="1" class="primary" opacity="0.3"/>
+            <rect x="35" y="480" width="25" height="2" rx="1" class="primary" opacity="0.3"/>
+            <rect x="35" y="500" width="15" height="2" rx="1" class="primary" opacity="0.3"/>
+            <rect x="35" y="520" width="30" height="2" rx="1" class="primary" opacity="0.3"/>
+        </g>
+        
+        <!-- Right side subtle design -->
+        <g id="RightSide" opacity="0.8">
+            <rect x="1256" y="200" width="3" height="80" rx="1.5" class="primary" opacity="0.4"/>
+            <rect x="1256" y="300" width="3" height="120" rx="1.5" class="primary" opacity="0.4"/>
+            <rect x="1256" y="440" width="3" height="80" rx="1.5" class="primary" opacity="0.4"/>
+            
+            <rect x="1215" y="200" width="30" height="2" rx="1" class="primary" opacity="0.3"/>
+            <rect x="1230" y="220" width="15" height="2" rx="1" class="primary" opacity="0.3"/>
+            <rect x="1220" y="240" width="25" height="2" rx="1" class="primary" opacity="0.3"/>
+            <rect x="1225" y="260" width="20" height="2" rx="1" class="primary" opacity="0.3"/>
+            <rect x="1215" y="280" width="30" height="2" rx="1" class="primary" opacity="0.3"/>
+            
+            <rect x="1220" y="320" width="25" height="2" rx="1" class="primary" opacity="0.3"/>
+            <rect x="1215" y="340" width="30" height="2" rx="1" class="primary" opacity="0.3"/>
+            <rect x="1230" y="360" width="15" height="2" rx="1" class="primary" opacity="0.3"/>
+            <rect x="1220" y="380" width="25" height="2" rx="1" class="primary" opacity="0.3"/>
+            <rect x="1225" y="400" width="20" height="2" rx="1" class="primary" opacity="0.3"/>
+            
+            <rect x="1215" y="440" width="30" height="2" rx="1" class="primary" opacity="0.3"/>
+            <rect x="1225" y="460" width="20" height="2" rx="1" class="primary" opacity="0.3"/>
+            <rect x="1220" y="480" width="25" height="2" rx="1" class="primary" opacity="0.3"/>
+            <rect x="1230" y="500" width="15" height="2" rx="1" class="primary" opacity="0.3"/>
+            <rect x="1215" y="520" width="30" height="2" rx="1" class="primary" opacity="0.3"/>
+        </g>
+        
+        <!-- Simple bottom elements - trapezoids that match the top -->
+        <path id="Bottom-Element-1" d="M261.5 703L247 720H303L288.5 703H261.5Z" class="secondary"/>
+        <path id="Bottom-Element-2" d="M201.5 703L187 720H243L228.5 703H201.5Z" class="secondary"/>
+    </g>
+</svg>

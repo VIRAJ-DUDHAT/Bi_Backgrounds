@@ -1,0 +1,87 @@
+<svg viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .background { fill: #0B0F19; }
+        .frame { fill: #151B28; stroke: #64DFDF; stroke-width: 2; }
+        .primary { fill: #64DFDF; }
+        .secondary { fill: #FB5607; }
+    </style>
+    
+    <defs>
+        <radialGradient id="cornerGlow" cx="0%" cy="0%" r="100%" fx="0%" fy="0%">
+            <stop offset="0%" style="stop-color:#64DFDF;stop-opacity:0.3"/>
+            <stop offset="100%" style="stop-color:#0B0F19;stop-opacity:0"/>
+        </radialGradient>
+    </defs>
+    
+    <g id="Modern Analytics Background">
+        <rect id="16:9" width="1280" height="720" class="background"/>
+        
+        <!-- Main frame -->
+        <rect id="Rectangle 2" x="21" y="16" width="1238" height="687" rx="40" class="frame"/>
+        
+        <!-- Top header bar - preserved as requested -->
+        <rect id="Rectangle 9" x="158" y="90" width="1035" height="7" class="primary"/>
+        
+        <!-- Top decorative elements -->
+        <path id="Vector 1" d="M1123.5 0L1109 16H1185.5L1200 0H1123.5Z" class="secondary"/>
+        <path id="Vector 2" d="M988.5 0L974 16H1050.5L1065 0H988.5Z" class="secondary"/>
+        
+        <!-- Corner glow effects -->
+        <rect x="21" y="16" width="200" height="200" fill="url(#cornerGlow)" opacity="0.6"/>
+        <rect x="1059" y="16" width="200" height="200" fill="url(#cornerGlow)" opacity="0.6" transform="rotate(90 1259 16)"/>
+        <rect x="21" y="503" width="200" height="200" fill="url(#cornerGlow)" opacity="0.6" transform="rotate(-90 21 703)"/>
+        <rect x="1059" y="503" width="200" height="200" fill="url(#cornerGlow)" opacity="0.6" transform="rotate(180 1259 703)"/>
+        
+        <!-- Left side abstract design -->
+        <g id="LeftDesign" opacity="0.8">
+            <!-- Hexagonal pattern -->
+            <path d="M60 180L80 160L100 180L80 200L60 180Z" stroke="#64DFDF" stroke-width="1.5" fill="none" opacity="0.3"/>
+            <path d="M100 180L120 160L140 180L120 200L100 180Z" stroke="#64DFDF" stroke-width="1.5" fill="none" opacity="0.2"/>
+            <path d="M80 200L100 220L120 200L100 180L80 200Z" stroke="#64DFDF" stroke-width="1.5" fill="none" opacity="0.3"/>
+            
+            <!-- Vertical line with dots -->
+            <line x1="80" y1="240" x2="80" y2="550" stroke="#64DFDF" stroke-width="1.5" opacity="0.3" stroke-dasharray="1,8"/>
+            <circle cx="80" cy="280" r="3" class="primary" opacity="0.6"/>
+            <circle cx="80" cy="330" r="3" class="primary" opacity="0.6"/>
+            <circle cx="80" cy="380" r="3" class="primary" opacity="0.6"/>
+            <circle cx="80" cy="430" r="3" class="primary" opacity="0.6"/>
+            <circle cx="80" cy="480" r="3" class="primary" opacity="0.6"/>
+            <circle cx="80" cy="530" r="3" class="primary" opacity="0.6"/>
+            
+            <!-- Secondary connector lines -->
+            <line x1="80" y1="280" x2="120" y2="280" stroke="#64DFDF" stroke-width="1.5" opacity="0.2"/>
+            <line x1="80" y1="380" x2="120" y2="380" stroke="#64DFDF" stroke-width="1.5" opacity="0.2"/>
+            <line x1="80" y1="480" x2="120" y2="480" stroke="#64DFDF" stroke-width="1.5" opacity="0.2"/>
+            
+            <!-- Data indicators -->
+            <rect x="120" y="270" width="20" height="20" rx="3" class="primary" opacity="0.2"/>
+            <rect x="120" y="370" width="20" height="20" rx="3" class="primary" opacity="0.2"/>
+            <rect x="120" y="470" width="20" height="20" rx="3" class="primary" opacity="0.2"/>
+        </g>
+        
+        <!-- Right side analytical elements -->
+        <g id="RightDesign">
+            <!-- Abstract chart lines -->
+            <path d="M1160 200C1180 170 1200 190 1220 160" stroke="#FB5607" stroke-width="2" fill="none" opacity="0.4"/>
+            <path d="M1160 240C1190 220 1200 260 1230 240" stroke="#FB5607" stroke-width="2" fill="none" opacity="0.3"/>
+            <path d="M1160 280C1170 260 1190 300 1220 280" stroke="#FB5607" stroke-width="2" fill="none" opacity="0.4"/>
+            
+            <!-- Small graph squares -->
+            <rect x="1170" y="320" width="60" height="60" rx="4" stroke="#64DFDF" stroke-width="1.5" fill="none" opacity="0.4"/>
+            <path d="M1175 355L1185 340L1195 360L1205 330L1215 350L1225 345" stroke="#FB5607" stroke-width="1.5" fill="none" opacity="0.5"/>
+            
+            <rect x="1170" y="400" width="60" height="60" rx="4" stroke="#64DFDF" stroke-width="1.5" fill="none" opacity="0.4"/>
+            <circle cx="1185" cy="430" r="3" class="secondary" opacity="0.5"/>
+            <circle cx="1195" cy="420" r="3" class="secondary" opacity="0.5"/>
+            <circle cx="1205" cy="440" r="3" class="secondary" opacity="0.5"/>
+            <circle cx="1215" cy="425" r="3" class="secondary" opacity="0.5"/>
+            
+            <rect x="1170" y="480" width="60" height="60" rx="4" stroke="#64DFDF" stroke-width="1.5" fill="none" opacity="0.4"/>
+            <path d="M1175 510H1190V520H1205V500H1220V510H1225" stroke="#FB5607" stroke-width="1.5" fill="none" opacity="0.5"/>
+        </g>
+        
+        <!-- Bottom decorative elements -->
+        <path id="Vector 3" d="M261.5 703L247 720H323.5L338 703H261.5Z" class="secondary"/>
+        <path id="Vector 4" d="M125.5 703L111 720H187.5L202 703H125.5Z" class="secondary"/>
+    </g>
+</svg>

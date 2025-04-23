@@ -1,0 +1,12 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .background { fill: #071D37; }
+        .frame { fill: #102A4C; stroke: #2AC8FF; stroke-width: 2; }
+        .primary { fill: #2AC8FF; }
+        .secondary { fill: #91CA66; }
+    </style>
+    <g id="Power BI 16:9 Background blank">
+        <rect id="16:9" width="1280" height="720" class="background"/>
+        <rect id="Rectangle 1" width="204" height="720" class="primary"/>
+    </svg>

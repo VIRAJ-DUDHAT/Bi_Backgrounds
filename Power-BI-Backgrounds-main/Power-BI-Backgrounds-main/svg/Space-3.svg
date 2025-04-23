@@ -1,0 +1,85 @@
+<svg viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .background { fill: #111827; }
+        .frame { fill: #1F2937; stroke: #6366F1; stroke-width: 2; }
+        .primary { fill: #6366F1; }
+        .secondary { fill: #F59E0B; }
+    </style>
+    
+    <g id="Circuit Pattern Background">
+        <rect id="16:9" width="1280" height="720" class="background"/>
+        
+        <!-- Main frame -->
+        <rect id="Rectangle 2" x="21" y="16" width="1238" height="687" rx="40" class="frame"/>
+        
+        <!-- Top header bar - preserved as requested -->
+        <rect id="Rectangle 9" x="158" y="90" width="1035" height="7" class="primary"/>
+        
+        <!-- Top decorative elements -->
+        <path id="Vector 1" d="M1123.5 0L1109 16H1185.5L1200 0H1123.5Z" class="secondary"/>
+        <path id="Vector 2" d="M988.5 0L974 16H1050.5L1065 0H988.5Z" class="secondary"/>
+        
+        <!-- Left side circuit pattern -->
+        <g id="LeftCircuit" opacity="0.7">
+            <path d="M21 180H100" stroke="#6366F1" stroke-width="2" opacity="0.6"/>
+            <circle cx="110" cy="180" r="5" class="primary"/>
+            <path d="M120 180H140V240H100" stroke="#6366F1" stroke-width="2" opacity="0.6"/>
+            <circle cx="90" cy="240" r="5" class="primary"/>
+            <path d="M80 240H40V300H100" stroke="#6366F1" stroke-width="2" opacity="0.6"/>
+            <circle cx="110" cy="300" r="5" class="primary"/>
+            <path d="M120 300H150V360H90" stroke="#6366F1" stroke-width="2" opacity="0.6"/>
+            <circle cx="80" cy="360" r="5" class="primary"/>
+            <path d="M70 360H21" stroke="#6366F1" stroke-width="2" opacity="0.6"/>
+            <path d="M21 420H60V480H120" stroke="#6366F1" stroke-width="2" opacity="0.6"/>
+            <circle cx="130" cy="480" r="5" class="primary"/>
+            <path d="M140 480H160V540H80" stroke="#6366F1" stroke-width="2" opacity="0.6"/>
+            <circle cx="70" cy="540" r="5" class="primary"/>
+            <path d="M60 540H21" stroke="#6366F1" stroke-width="2" opacity="0.6"/>
+        </g>
+        
+        <!-- Right side circuit pattern -->
+        <g id="RightCircuit" opacity="0.7">
+            <path d="M1259 180H1180" stroke="#6366F1" stroke-width="2" opacity="0.6"/>
+            <circle cx="1170" cy="180" r="5" class="primary"/>
+            <path d="M1160 180H1140V240H1180" stroke="#6366F1" stroke-width="2" opacity="0.6"/>
+            <circle cx="1190" cy="240" r="5" class="primary"/>
+            <path d="M1200 240H1240V300H1180" stroke="#6366F1" stroke-width="2" opacity="0.6"/>
+            <circle cx="1170" cy="300" r="5" class="primary"/>
+            <path d="M1160 300H1130V360H1190" stroke="#6366F1" stroke-width="2" opacity="0.6"/>
+            <circle cx="1200" cy="360" r="5" class="primary"/>
+            <path d="M1210 360H1259" stroke="#6366F1" stroke-width="2" opacity="0.6"/>
+            <path d="M1259 420H1220V480H1160" stroke="#6366F1" stroke-width="2" opacity="0.6"/>
+            <circle cx="1150" cy="480" r="5" class="primary"/>
+            <path d="M1140 480H1120V540H1200" stroke="#6366F1" stroke-width="2" opacity="0.6"/>
+            <circle cx="1210" cy="540" r="5" class="primary"/>
+            <path d="M1220 540H1259" stroke="#6366F1" stroke-width="2" opacity="0.6"/>
+        </g>
+        
+        <!-- Discrete dot pattern in corners but not center -->
+        <g id="dots" opacity="0.3">
+            <circle cx="80" cy="120" r="2" class="secondary"/>
+            <circle cx="100" cy="140" r="2" class="secondary"/>
+            <circle cx="120" cy="120" r="2" class="secondary"/>
+            <circle cx="140" cy="150" r="2" class="secondary"/>
+            <!-- More dots on right side -->
+            <circle cx="1180" cy="120" r="2" class="secondary"/>
+            <circle cx="1160" cy="140" r="2" class="secondary"/>
+            <circle cx="1140" cy="120" r="2" class="secondary"/>
+            <circle cx="1120" cy="150" r="2" class="secondary"/>
+            <!-- More dots on bottom left -->
+            <circle cx="80" cy="600" r="2" class="secondary"/>
+            <circle cx="100" cy="620" r="2" class="secondary"/>
+            <circle cx="120" cy="600" r="2" class="secondary"/>
+            <circle cx="140" cy="630" r="2" class="secondary"/>
+            <!-- More dots on bottom right -->
+            <circle cx="1180" cy="600" r="2" class="secondary"/>
+            <circle cx="1160" cy="620" r="2" class="secondary"/>
+            <circle cx="1140" cy="600" r="2" class="secondary"/>
+            <circle cx="1120" cy="630" r="2" class="secondary"/>
+        </g>
+        
+        <!-- Bottom decorative elements -->
+        <path id="Vector 3" d="M261.5 703L247 720H323.5L338 703H261.5Z" class="secondary"/>
+        <path id="Vector 4" d="M125.5 703L111 720H187.5L202 703H125.5Z" class="secondary"/>
+    </g>
+</svg>
